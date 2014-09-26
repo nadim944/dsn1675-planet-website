@@ -14,6 +14,11 @@ html {
 
 }
 
+img {
+ dispay: block;
+ width: 100%;
+}
+
 header {
     background-color: #ccc;
     overflow: hidden;
@@ -77,3 +82,5 @@ h1 {
     
     }
 }
+
+
