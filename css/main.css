@@ -22,20 +22,22 @@ img {
 header {
     background-color: #ccc;
     overflow: hidden;
+}
 
+footer {
+    background-color: #DDDDDD;
+    overflow: hidden;
 }
 
 body {
     padding: 0;
     margin: 0;
-
 }
 
 h1 { 
     padding: 0;
     margin: 0;
     font-family: sans-serif;
-
 }
 
 .nav {
@@ -43,7 +45,6 @@ h1 {
     padding: 0;
     list-style-type: none;
     font-family: sans-serif; 
-
 }
 
 .nav a,
@@ -84,4 +85,7 @@ h1 {
     }
 }
 
+.lightgrey {
+    background-color: #e2e2e2;
+}
 
