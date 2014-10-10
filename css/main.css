@@ -40,6 +40,18 @@ h1 {
     font-family: sans-serif;
 }
 
+.mediumgrey {
+    background-color: #E6E6E6;
+    text-align: center;
+}
+
+.lightgrey {
+    background-color: #E6E6E6;
+}
+
+.grey {
+background-color:#E6E6E6;
+}
 .nav {
     margin: 0;
     padding: 0;
@@ -85,7 +97,5 @@ h1 {
     }
 }
 
-.lightgrey {
-    background-color: #e2e2e2;
-}
+
 
