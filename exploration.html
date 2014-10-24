@@ -8,14 +8,18 @@
   <link href="css/typography.css" rel="stylesheet"> 
   <link href="css/main.css" rel="stylesheet">
 </head>
-
 <body>
     
-    <header>
+    <ul class="skip-links"> 
+    <li><a href="#main">Skip to main content</a></li>
+     <li><a href="#navigation">Skip to main navigation</a></li>
+    </ul>   
+    
+    <header role="banner">
         
         <h1 class="giga">Mars</h1>
     
-        <nav>
+        <nav id="navigation" role="navigation">
         
             <ul class="nav">
             
@@ -30,6 +34,10 @@
         </nav>
     
     </header>
+    
+    <main role="main" id="main">
+        
+        <main role="main">
     
     <div class="intro">
     
@@ -63,10 +71,12 @@
         
                 </nav>
                 
-            </div>    
-            
+            </div>
+        
         </div>
         
+        </main>
+            
     </footer>
 
     </body>
