@@ -121,11 +121,11 @@ span {
         text-align: center;
     }
     
-    .center {
+    center {
         text-align:center;   
 }
     
-   span {
+    span {
        display: inline;
    } 
     
@@ -136,21 +136,20 @@ span {
     h1 { 
         float: left;       
 }
+    
     .nav {
         float: left;
     }
     
     .nav-right {
         float: right;
-        padding-right: 1em;
-        
+        padding-right: 1em;    
     }
     
-     span {
+    span {
        display: inline;
    } 
-    
-    
+      
 }
 
 @media only screen and (min-width: 60em) {
@@ -161,8 +160,8 @@ span {
         width: 8rem;
     }
         
-        dd {
-            float: left;
+    dd {
+        float: left;
             
 }
     
@@ -171,7 +170,7 @@ span {
     }
     
      span {
-       display: inline;
+        display: inline;
    } 
     
 }
