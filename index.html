@@ -9,13 +9,18 @@
  <link href="css/main.css" rel="stylesheet">
 </head>
 
+ <ul class="skip-links"> 
+     <li><a href="#main">Skip to main content</a></li>
+     <li><a href="#navigation">Skip to main navigation</a></li>
+</ul>
+        
 <body>
 
-    <header>
+    <header role="banner">
         
         <h1 class="island peta">Mars</h1>
     
-        <nav>
+        <nav id="navigation" role="navigation">
         
             <ul class="nav">
             
@@ -31,9 +36,12 @@
     
     </header>
     
+    <main role="main" id="main">
+
+    <main role="main">
     <div class="intro">
     
-        <h2 class="intro island exe">Mars is the second planet in the solar System.</h2>
+        <h2 class="intro island exa">Mars is the second planet in the solar System.</h2>
     
     </div>
     
@@ -163,7 +171,7 @@
           
         <div class="grid">
             
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4 ">
+            <div role="contentinfo" class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4 ">
         
                 <p class="milla push-0 island-half center">©2014 Mars planetary Consortium</p>
                 
@@ -188,6 +196,8 @@
             </div>    
             
         </div>
+        
+        </main>
         
     </footer>
  
